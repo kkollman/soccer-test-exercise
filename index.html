@@ -5,23 +5,23 @@
   <title>Coach Test Exercise</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 <section class="match">
+    <button id="button" type="button" name="pause-btn" class="paused">Play the game</button>
   <div class="field">
     <img src="soccer-field.jpg" alt="soccer field">
     <div class="players">
-
     </div>
   </div>
-  <button type="button" name="pause-btn"></button>
   <div class="timeline">
-    <label for="time"></label>
+    <div class="counters">
+      <div id="time-counter">00:00</div>
+      <div id="total-time-counter">00:00</div>
+    </div>
     <input id="time" type="range" name="time" min="0" max="" value="0">
   </div>
 </section>
     <script src="data.js"></script>
     <script type="text/javascript" src="app.js"></script>
 </body>
-
 </html>
